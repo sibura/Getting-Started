@@ -1,7 +1,6 @@
 # Getting-Started
 # Constructor functions / Classes
 
-How to create a Car & Ferry!? :-|
 
 Let's look at functions...
 
@@ -39,4 +38,33 @@ Call the function like this:
 var count = wordCount("The fox jumps over the fence");
 console.log(count);
 ```
+---
+
+
+# Function example using node module
+
+> Create a function that takes a sentence and return the number of words in the sentence.
+
+Create the function like this:
+
+```javascript
+module.exports = function(sentence){
+
+    if(!sentence){
+        return 0;
+    }
+    var wordsInSentence = sentence.split(" ");
+    return wordsInSentence.length;
+    
+}
+```
+
+Call the function like this:
+
+```javascript
+var wordCount = require('./wordcount');
+var count = wordCount("The fox jumps over the fence");
+console.log(count);
+```
+
 ---
