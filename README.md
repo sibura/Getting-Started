@@ -5,8 +5,6 @@ layout: default
 title: Where Can I JavaScript?
 ---
 
-# Where Can I JavaScript?
-
 There are lots of places to **write** and to **run** JavaScript.
 
 We almost always **write JavaScript** in our editor (Atom or Sublime).
